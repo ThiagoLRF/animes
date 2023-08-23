@@ -4,11 +4,26 @@ import Titulo from "@/components/Titulo";
 export default function Home() {
   return ( // JSX
   <>
-    <nav className='flex p-4 bg-sky-800'>
+    <nav className='flex p-4 bg-red-800'>
         <ul className='flex gap-20'>
           <li>
             <a href='#'>
-              <h1>FiapGames</h1>  
+              <h1>FiapAnimes</h1>  
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              Lançamentos
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              Tendências
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              Top Animes
             </a>
           </li>
           <li>
@@ -16,26 +31,11 @@ export default function Home() {
               Favoritos
             </a>
           </li>
-          <li>
-            <a href='#'>
-              PC
-            </a>
-          </li>
-          <li>
-            <a href='#'>
-              Xbox
-            </a>
-          </li>
-          <li>
-            <a href='#'>
-              PlayStation
-            </a>
-          </li>
         </ul>
       </nav>
 
-      <Titulo>Favoritos</Titulo>
-      <Titulo>Ofertas</Titulo>
+      <Titulo>Tendências</Titulo>
+      <Titulo>Mais Assistidos</Titulo>
   </>
   )
 }
